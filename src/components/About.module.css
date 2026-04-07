@@ -1,0 +1,36 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+/* LADO IZQUIERDO */
+.left {
+  flex: 1;
+}
+
+/* LADO DERECHO */
+.right {
+  flex: 1;
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span {
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}

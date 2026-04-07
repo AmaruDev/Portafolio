@@ -4,7 +4,9 @@
         "title": "Proyecto 1",
         "description": "Descripción del proyecto 1",
         "image": "proyecto1.jpg",
-        "link": "https://example.com/proyecto1"
+        "link": "https://example.com/proyecto1",
+        "fechaCreacion": "2025-10-15",
+        "fechaModificacion": "2025-11-02"
     }
     ,
     {
@@ -12,14 +14,18 @@
         "title": "Proyecto 2",
         "description": "Descripción del proyecto 2",
         "image": "proyecto2.jpg",
-        "link": "https://example.com/proyecto2"
+        "link": "https://example.com/proyecto2",
+        "fechaCreacion": "2025-10-15",
+        "fechaModificacion": "2025-11-02"
     },
     {
         "id": 3,
         "title": "Proyecto 3",
         "description": "Descripción del proyecto 3",
         "image": "proyecto3.jpg",
-        "link": "https://example.com/proyecto3"
+        "link": "https://example.com/proyecto3",
+        "fechaCreacion": "2025-10-15",
+        "fechaModificacion": "2025-11-02"
     }
 
 ]

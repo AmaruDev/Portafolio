@@ -1,29 +1,29 @@
-import styles from "./Hero.module.css";
 import { useState } from "react";
+import styles from "./Hero.module.css";
 
 function Hero() {
   const [mode, setMode] = useState("avatar");
 
   return (
-    <section id="home" className={styles.hero}>
+    <section id="home">
+      <div className="hero">
 
-      <div className={styles.heroVisual}>
-        {mode === "avatar" ? (
-          <img src="/avatar.png" alt="Avatar" />
-        ) : (
-          <img src="/foto.png" alt="Foto real" />
-        )}
-      </div>
+        <div className="hero-visual">
+          {mode === "avatar" ? (
+            <img src="../img/avatar.png" alt="Avatar" />
+          ) : (
+            <img src="../img/foto.png" alt="Foto real" />
+          )}
+        </div>
 
-      <div className={styles.heroText}>
         <h1>Amanda Valenzuela</h1>
         <p>Frontend Developer crafting interactive experiences</p>
+
+        <button onClick={() => setMode(mode === "avatar" ? "real" : "avatar")}>
+          Cambiar modo
+        </button>
+
       </div>
-
-      <button onClick={() => setMode(mode === "avatar" ? "real" : "avatar")}>
-        Cambiar modo
-      </button>
-
     </section>
   );
 }
