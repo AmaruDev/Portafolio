@@ -1,0 +1,13 @@
+.projects {
+  padding: 4rem 0;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+}

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import styles from "./Hero.module.css";
+import avatar from "../img/avatar.png";
+import foto from "../img/foto.png";
 
 function Hero() {
   const [mode, setMode] = useState("avatar");
@@ -10,9 +12,9 @@ function Hero() {
 
         <div className="hero-visual">
           {mode === "avatar" ? (
-            <img src="../img/avatar.png" alt="Avatar" />
+            <img src={avatar} alt="Avatar" />
           ) : (
-            <img src="../img/foto.png" alt="Foto real" />
+            <img src={foto} alt="Foto real" />
           )}
         </div>
 
